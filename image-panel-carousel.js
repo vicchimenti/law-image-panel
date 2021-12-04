@@ -7,7 +7,7 @@
  *
  *      Document will write once when the page loads
  *
- *      @version 1.28
+ *      @version 1.29
  */
 
 
@@ -57,7 +57,7 @@ try {
     var openLinksList = '<ul class="panelLinks flex-md-nowrap">';
     var closeLinksList = '</ul>';
     var descriptionString = '<div>' + description + '</div>';
-    var beginningHTML = '<div class="panelWrapper contentItem g-0 container-fluid" id="imagePanel' + contentID + '" data-position-default="Main" data-position-selected="Main"><div class="col-12 card border-0">';
+    var beginningHTML = '<div class="panelWrapper carousel-item g-0 container-fluid" id="imagecarousel' + contentID + '"><div class="col-12 card border-0">';
     var endingHTML = '</div></div>';
 
 
